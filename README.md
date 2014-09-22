@@ -13,7 +13,7 @@ section of the _Concurrency Programming Guide._
 Note: This requirement, to post `isFinished` and `isExecuting` KVO, is only applicable if
 writing asynchronous/concurrent operations, namely:
 
-- Return `TRUE` form `isAsynchronous` (and if supporting iOS 7.1 and earlier, `isConcurrent`).
+- The `isAsynchronous` getter (and if supporting iOS 7.1 and earlier, `isConcurrent`) should return `TRUE`.
 
 - When the operation starts, it completes asynchronously (i.e. does doesn't complete until
 after it returns from the `start`/`main` function).
