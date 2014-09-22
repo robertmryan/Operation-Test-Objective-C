@@ -14,6 +14,10 @@
 		832D957919D090610083BC87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832D957819D090610083BC87 /* Images.xcassets */; };
 		832D957C19D090610083BC87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832D957A19D090610083BC87 /* LaunchScreen.xib */; };
 		832D958819D090620083BC87 /* OperationTestObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D958719D090620083BC87 /* OperationTestObjCTests.m */; };
+		832D959319D090A10083BC87 /* GoodAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D959219D090A10083BC87 /* GoodAsynchronousOperation.m */; };
+		832D959419D090A10083BC87 /* GoodAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D959219D090A10083BC87 /* GoodAsynchronousOperation.m */; };
+		832D959719D090B30083BC87 /* BadAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D959619D090B30083BC87 /* BadAsynchronousOperation.m */; };
+		832D959819D090B30083BC87 /* BadAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D959619D090B30083BC87 /* BadAsynchronousOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		832D958119D090620083BC87 /* OperationTestObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationTestObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832D958619D090620083BC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		832D958719D090620083BC87 /* OperationTestObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationTestObjCTests.m; sourceTree = "<group>"; };
+		832D959119D090A10083BC87 /* GoodAsynchronousOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodAsynchronousOperation.h; sourceTree = "<group>"; };
+		832D959219D090A10083BC87 /* GoodAsynchronousOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodAsynchronousOperation.m; sourceTree = "<group>"; };
+		832D959519D090B30083BC87 /* BadAsynchronousOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadAsynchronousOperation.h; sourceTree = "<group>"; };
+		832D959619D090B30083BC87 /* BadAsynchronousOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadAsynchronousOperation.m; sourceTree = "<group>"; };
+		832D959919D0954B0083BC87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		832D955F19D090610083BC87 = {
 			isa = PBXGroup;
 			children = (
+				832D959919D0954B0083BC87 /* README.md */,
 				832D956A19D090610083BC87 /* OperationTestObjC */,
 				832D958419D090620083BC87 /* OperationTestObjCTests */,
 				832D956919D090610083BC87 /* Products */,
@@ -85,6 +95,10 @@
 				832D957019D090610083BC87 /* AppDelegate.m */,
 				832D957219D090610083BC87 /* ViewController.h */,
 				832D957319D090610083BC87 /* ViewController.m */,
+				832D959119D090A10083BC87 /* GoodAsynchronousOperation.h */,
+				832D959219D090A10083BC87 /* GoodAsynchronousOperation.m */,
+				832D959519D090B30083BC87 /* BadAsynchronousOperation.h */,
+				832D959619D090B30083BC87 /* BadAsynchronousOperation.m */,
 				832D957519D090610083BC87 /* Main.storyboard */,
 				832D957819D090610083BC87 /* Images.xcassets */,
 				832D957A19D090610083BC87 /* LaunchScreen.xib */,
@@ -219,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832D959319D090A10083BC87 /* GoodAsynchronousOperation.m in Sources */,
 				832D957419D090610083BC87 /* ViewController.m in Sources */,
 				832D957119D090610083BC87 /* AppDelegate.m in Sources */,
 				832D956E19D090610083BC87 /* main.m in Sources */,
+				832D959719D090B30083BC87 /* BadAsynchronousOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832D959819D090B30083BC87 /* BadAsynchronousOperation.m in Sources */,
+				832D959419D090A10083BC87 /* GoodAsynchronousOperation.m in Sources */,
 				832D958819D090620083BC87 /* OperationTestObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
